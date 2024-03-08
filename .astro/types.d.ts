@@ -185,6 +185,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"guides/secure-code-review/resource.mdx": {
+	id: "guides/secure-code-review/resource.mdx";
+  slug: "guides/secure-code-review/resource";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "index.mdx": {
 	id: "index.mdx";
   slug: "index";

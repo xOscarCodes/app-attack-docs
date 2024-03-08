@@ -19,11 +19,13 @@ export default defineConfig({
 						{label: 'Getting Started', link: '/guides/pentest/getting-started'},
 						{label: 'Burp Suite', link: '/guides/pentest/burp-suite'},
 						{label: 'Practice & Additional Resources', link: '/guides/pentest/practice-additional-resources'}
-					],
+					]
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Secure Code Review Learning Resource',
+					items: [
+						{ label: 'Resource', link: '/guides/secure-code-review/resource' },
+					]				
 				},
 			],
 		}),
